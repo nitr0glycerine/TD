@@ -1,0 +1,23 @@
+.todolistitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todolistitem-label {
+  margin-right: 10px;
+}
+
+.todolistitem button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.status {
+  font-weight: bold;
+  color: steelblue;
+}
